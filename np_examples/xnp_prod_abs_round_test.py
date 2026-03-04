@@ -1,0 +1,15 @@
+import numpy as np
+
+a = np.array([-1.2, 2.7, -3.5, 4.0])
+b = np.array([[1.2, -2.3], [3.4, -4.5]])
+print("prod:", np.prod(a))
+print("prod axis=0:", np.prod(b, axis=0))
+print("prod axis=1 keepdims:")
+print(np.prod(b, axis=1, keepdims=True))
+print("abs:", np.abs(a))
+print("fabs:", np.fabs(a))
+print("sign:", np.sign(a))
+print("floor:", np.floor(a))
+print("ceil:", np.ceil(a))
+print("round0:", np.round(a))
+print("round1:", np.round(a, 1))
